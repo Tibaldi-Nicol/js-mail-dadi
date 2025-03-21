@@ -9,3 +9,6 @@ for (let i = 0; i < emails.length; i++) {
 if(check == true){
   console.log('Accesso consentito');
 }
+else{
+  console.log('Accesso negato');
+}
