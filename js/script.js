@@ -4,7 +4,7 @@
 const test = prompt('Vuoi accedere?');
 console.log(test);
 
-
+/*
 const emails = ["fabrizio@gmail.com", 'noemi@gmail.com','marco@gmail.com','giovanni@gmail.com'];
 let check = false;
 const email = prompt('Inserisci la tua email');
@@ -18,4 +18,17 @@ if(check == true){
 }
 else{
   console.log('Accesso negato');
+}
+  */
+
+
+//gioco dati random
+let dado = Math.floor(Math.random() * 6) + 1;
+let pcnumber = Math.floor(Math.random() * 6) + 1;
+
+if(dado > pcnumber){
+  console.log('Hai vinto');
+}
+else if(dado < pcnumber){
+  console.log('Hai perso');
 }
